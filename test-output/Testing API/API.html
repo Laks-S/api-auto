@@ -1,0 +1,145 @@
+<html>
+<head>
+<title>TestNG:  API</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>API</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 28 15:14:35 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>6 seconds (6507 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='API_WEB_PACK.Get_Order.get_ordder()'><b>get_ordder</b><br>Test class: API_WEB_PACK.Get_Order</td>
+<td></td>
+<td>5</td>
+<td>API_WEB_PACK.Get_Order@41a0aa7d</td></tr>
+<tr>
+<td title='API_WEB_PACK.Get_product_variant.get_pdt_variant()'><b>get_pdt_variant</b><br>Test class: API_WEB_PACK.Get_product_variant</td>
+<td></td>
+<td>5</td>
+<td>API_WEB_PACK.Get_product_variant@6340e5f0</td></tr>
+<tr>
+<td title='API_WEB_PACK.Get_checkout.get_checkko()'><b>get_checkko</b><br>Test class: API_WEB_PACK.Get_checkout</td>
+<td></td>
+<td>5</td>
+<td>API_WEB_PACK.Get_checkout@f09733f</td></tr>
+<tr>
+<td title='API_WEB_PACK.Validate_customer_Credentials.cust_cred()'><b>cust_cred</b><br>Test class: API_WEB_PACK.Validate_customer_Credentials</td>
+<td></td>
+<td>5</td>
+<td>API_WEB_PACK.Validate_customer_Credentials@6c1a5b54</td></tr>
+<tr>
+<td title='API_WEB_PACK.Track_order.track_order()'><b>track_order</b><br>Test class: API_WEB_PACK.Track_order</td>
+<td></td>
+<td>5</td>
+<td>API_WEB_PACK.Track_order@1c7696c6</td></tr>
+<tr>
+<td title='API_WEB_PACK.GetCart.get_cart()'><b>get_cart</b><br>Test class: API_WEB_PACK.GetCart</td>
+<td></td>
+<td>5</td>
+<td>API_WEB_PACK.GetCart@13e344d</td></tr>
+<tr>
+<td title='API_WEB_PACK.Get_payment_methods.get_payment()'><b>get_payment</b><br>Test class: API_WEB_PACK.Get_payment_methods</td>
+<td></td>
+<td>5</td>
+<td>API_WEB_PACK.Get_payment_methods@2794eab6</td></tr>
+<tr>
+<td title='API_WEB_PACK.Get_customers.get_customers()'><b>get_customers</b><br>Test class: API_WEB_PACK.Get_customers</td>
+<td></td>
+<td>5</td>
+<td>API_WEB_PACK.Get_customers@e350b40</td></tr>
+<tr>
+<td title='API_WEB_PACK.kapiva_create_user.autosign()'><b>autosign</b><br>Test class: API_WEB_PACK.kapiva_create_user</td>
+<td></td>
+<td>4</td>
+<td>API_WEB_PACK.kapiva_create_user@1ffaf86</td></tr>
+<tr>
+<td title='API_WEB_PACK.Check_user_kapiva.checking_user()'><b>checking_user</b><br>Test class: API_WEB_PACK.Check_user_kapiva</td>
+<td></td>
+<td>4</td>
+<td>API_WEB_PACK.Check_user_kapiva@2e3967ea</td></tr>
+<tr>
+<td title='API_WEB_PACK.GetAllOrderstatuses.getallorder_status()'><b>getallorder_status</b><br>Test class: API_WEB_PACK.GetAllOrderstatuses</td>
+<td></td>
+<td>5</td>
+<td>API_WEB_PACK.GetAllOrderstatuses@45099dd3</td></tr>
+<tr>
+<td title='API_WEB_PACK.Create_order.create_order()'><b>create_order</b><br>Test class: API_WEB_PACK.Create_order</td>
+<td></td>
+<td>5</td>
+<td>API_WEB_PACK.Create_order@4b45a2f5</td></tr>
+<tr>
+<td title='API_WEB_PACK.OTPLogin.checking_user()'><b>checking_user</b><br>Test class: API_WEB_PACK.OTPLogin</td>
+<td></td>
+<td>6</td>
+<td>API_WEB_PACK.OTPLogin@6574a52c</td></tr>
+</table><p>
+</body>
+</html>

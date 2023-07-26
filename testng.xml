@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing API">
+    <test name="API"  parallel = "classes" thread-count = "14" preserve-order="false">
+         <classes>
+             <class name="API_WEB_PACK.Check_user_kapiva"/>
+             <class name="API_WEB_PACK.Create_order"/>
+              <class name="API_WEB_PACK.Get_checkout"/>
+               <class name="API_WEB_PACK.Get_customers"/>
+                <class name="API_WEB_PACK.Get_Order"/>
+                 <class name="API_WEB_PACK.Get_payment_methods"/>
+                  <class name="API_WEB_PACK.Get_product_variant"/>
+                   <class name="API_WEB_PACK.GetAllOrderstatuses"/>
+                    <class name="API_WEB_PACK.GetCart"/>
+                     <class name="API_WEB_PACK.kapiva_create_user"/>
+                      <class name="API_WEB_PACK.OTPLogin"/>
+                      <class name="API_WEB_PACK.Validate_customer_Credentials"/>
+                       <class name="API_WEB_PACK.Track_order"/>
+                      
+                         
+          </classes>
+     </test> <!-- Test -->
+</suite> <!-- Suite -->
