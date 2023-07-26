@@ -13,8 +13,8 @@ public void autosign() {
 	HashMap data=new HashMap();
 	data.put("first_name","Lakshmi");
 	data.put("last_name", "Keerthi");
-	data.put("email", "lakshmi.s1@kapiva.in");
-	data.put("mobile", "9059575490");
+	data.put("email", "lakshmi.s2@kapiva.in");
+	data.put("mobile", "9059575491a");
 	data.put("device_platform", "web");
 	//Response res=
 	given().contentType("application/json")

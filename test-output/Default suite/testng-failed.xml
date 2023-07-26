@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="API_WEB_PACK.Refund_quotes">
+      <class name="API_WEB_PACK.Validate_customer_Credentials">
         <methods>
-          <include name="refund"/>
+          <include name="cust_cred"/>
         </methods>
-      </class> <!-- API_WEB_PACK.Refund_quotes -->
+      </class> <!-- API_WEB_PACK.Validate_customer_Credentials -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
